@@ -432,7 +432,7 @@ void ModuleNavigation::Clear()
 	m_partition_type = NAVIGATION_PARTITION_WATERSHED;
 	m_max_tiles = 0;
 	m_max_polys_per_tile = 0;
-	m_tile_size = 512.0f;
+	m_tile_size = 128.0f;
 }
 
 void ModuleNavigation::DrawNavMeshGenerationUI()
